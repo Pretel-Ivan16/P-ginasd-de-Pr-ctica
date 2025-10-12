@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: blanchedalmond;
+    color: #222;
+    min-height: 200vh;
+}
+
+.topBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #6b5a43;
+    color: blanchedalmond;
+}
+
+.logoPPP{
+    width: 100px;
+    height: 100px;
+}
