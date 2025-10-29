@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+.principal-box{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal-container{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    max-width: 480px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px ;
+    box-shadow: -3px 4px 29px 32px hsl(217, 54%, 11%);
+}
+
+.image-container{
+    max-width: 400px;
+}
+
+.image-equilibrium{
+    width: 400px;
+    border-radius: 15px;
+}
+
+.description-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.description-tittle{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.description-container-principal{
+    display: flex;
+    width: 100%;
+}
+
+.description-text{
+    color: hsl(215, 51%, 70%);
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.description-container-features{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.description-container__statistic{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-ethereum{
+    width: 15px;
+}
+
+.icon-ethereum__text{
+    color: hsl(178, 100%, 50%);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.description-container-time__left{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-clock{
+    width: 25px;
+}
+
+.icon-clock__text{
+    color: hsl(215, 51%, 70%);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.description-container-footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-top: 3px solid hsl(215, 32%, 27%);
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.image-avatar{
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 50px;
+}
+
+.image-avatar__text{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.image-avatar__text_span{
+    color: hsl(215, 51%, 70%);
+}
+
+.attribution{
+    font-size: 11px; text-align: center;
+    margin: 20px;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}

@@ -3,31 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | NFT preview card component</title> 
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="principal-box">
+    <main class="principal-container">
+      <div class="image-container">
+        <img class="image-equilibrium" src="./images/image-equilibrium.jpg" alt="Image Equilibrium">
+      </div>
+      <div class="description-container">
+        <header class="description-container-header">
+          <h1 class="description-tittle">Equilibrium #3429</h1>
+        </header>
+        <div class="description-container-principal">
+          <p class="description-text">Our Equilibrium collection promotes balance and calm.</p>
+        </div>
+        <div class="description-container-features">
+          <div class="description-container__statistic">
+            <img class="icon-ethereum" src="./images/icon-ethereum.svg" alt="Icon Ethereum">
+            <span class="icon-ethereum__text">0.041 ETH</span>
+          </div>
+          <div class="description-container-time__left">
+            <img class="icon-clock" src="./images/icon-clock.svg" alt="Image Clock">
+            <span class="icon-clock__text">3 days left</span>
+          </div>
+        </div>
+        <footer class="description-container-footer">
+          <img class="image-avatar" src="./images/image-avatar.png" alt="Image Avatar">
+          <p class="image-avatar__text"><span class="image-avatar__text_span">Creation of</span> Jules Wyvern</p>
+        </footer>
+      </div>
+    </main>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Iván Pretel</a>.
+    </div>
   </div>
 </body>
 </html>
